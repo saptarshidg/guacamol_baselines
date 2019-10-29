@@ -1,0 +1,173 @@
+<module>:goal_directed_generation:Starting best_from_chembl:goal_directed_generation
+<module>:goal_directed_generation:Optimizer result is <best_from_chembl.optimizer.BestFromChemblOptimizer object at 0x000001C3D1EE7EB8>
+assess_goal_directed_generation:assess_goal_directed_generation:
+
+Inside guacamol.assess_goal_directed_generation
+assess_goal_directed_generation:assess_goal_directed_generation:Benchmarking goal-directed molecule generation, version v1
+isomers_c11h24:standard_benchmarks:
+
+--Inside function c11h24--
+uniform_specification:goal_directed_score_contributions:
+
+Inside goal_directed_score_contribution.uniform_specification function
+uniform_specification:goal_directed_score_contributions:Top_counts:(159,)
+uniform_specification:goal_directed_score_contributions:Contributions:[(159, 1.0)]
+uniform_specification:goal_directed_score_contributions:Exiting uniform_specification function
+
+
+isomers_c11h24:standard_benchmarks:Specification=<guacamol.goal_directed_score_contributions.ScoreContributionSpecification object at 0x000001C3D1EE7F98>
+assess_goal_directed_generation:assess_goal_directed_generation:Calling guacamol._evalauate_goal_directed_benchmarks from guacamol.assess_goal_directed_generation
+_evaluate_goal_directed_benchmarks:assess_goal_directed_generation:
+
+Inside guacamol._evaluate_goal_directed_benchmarks function
+_evaluate_goal_directed_benchmarks:assess_goal_directed_generation:Number of benchmarks: 1
+_evaluate_goal_directed_benchmarks:assess_goal_directed_generation:Running benchmark 1,<guacamol.goal_directed_benchmark.GoalDirectedBenchmark object at 0x000001C3D1EFF1D0>
+_evaluate_goal_directed_benchmarks:assess_goal_directed_generation:Calling goal_directed_benchmark.assess_model from evaluate_goal_directed_benchmark
+assess_model:goal_directed_benchmark:
+
+Inside assess_model function
+assess_model:goal_directed_benchmark:Number of molecules to generate:159
+__iter__:chembl_file_reader:
+
+----READING SMILES STRING----
+generate_optimized_molecules:optimizer:The score for CCCC(=O)NNC(=O)Nc1ccccc1 is 0.37844509441220425
+generate_optimized_molecules:optimizer:Item(score,smiles)=(0.37844509441220425,CCCC(=O)NNC(=O)Nc1ccccc1)
+generate_optimized_molecules:optimizer:Top molecules:[]
+generate_optimized_molecules:optimizer:Len(top_molecules):0
+generate_optimized_molecules:optimizer:Number_molecules:159
+generate_optimized_molecules:optimizer:Heapq contents:<module 'heapq' from 'C:\\Users\\Saptarshi\\Anaconda3\\lib\\heapq.py'>
+generate_optimized_molecules:optimizer:Output of best_from_chembl:generate_optimized_molecule function is ['CCCC(=O)NNC(=O)Nc1ccccc1']
+generate_optimized_molecules:optimizer:Exiting generate_optimized_molecule function
+
+
+generate_optimized_molecules:optimizer:The score for CC(=O)NC1CCC2(C)C(CCC3(C)C2C(=O)C=C2C4C(C)C(C)CCC4(C)CCC23C)C1(C)C(=O)O is 5.766940698941967e-97
+generate_optimized_molecules:optimizer:Item(score,smiles)=(5.766940698941967e-97,CC(=O)NC1CCC2(C)C(CCC3(C)C2C(=O)C=C2C4C(C)C(C)CCC4(C)CCC23C)C1(C)C(=O)O)
+generate_optimized_molecules:optimizer:Top molecules:[(0.37844509441220425, 'CCCC(=O)NNC(=O)Nc1ccccc1')]
+generate_optimized_molecules:optimizer:Len(top_molecules):1
+generate_optimized_molecules:optimizer:Number_molecules:159
+generate_optimized_molecules:optimizer:Heapq contents:<module 'heapq' from 'C:\\Users\\Saptarshi\\Anaconda3\\lib\\heapq.py'>
+generate_optimized_molecules:optimizer:Output of best_from_chembl:generate_optimized_molecule function is ['CC(=O)NC1CCC2(C)C(CCC3(C)C2C(=O)C=C2C4C(C)C(C)CCC4(C)CCC23C)C1(C)C(=O)O', 'CCCC(=O)NNC(=O)Nc1ccccc1']
+generate_optimized_molecules:optimizer:Exiting generate_optimized_molecule function
+
+
+generate_optimized_molecules:optimizer:The score for CC(=O)NC(C)Cc1ccc(C#Cc2ccnc(N3CCCC(F)C3)n2)cc1 is 0.20217688657087782
+generate_optimized_molecules:optimizer:Item(score,smiles)=(0.20217688657087782,CC(=O)NC(C)Cc1ccc(C#Cc2ccnc(N3CCCC(F)C3)n2)cc1)
+generate_optimized_molecules:optimizer:Top molecules:[(5.766940698941967e-97, 'CC(=O)NC1CCC2(C)C(CCC3(C)C2C(=O)C=C2C4C(C)C(C)CCC4(C)CCC23C)C1(C)C(=O)O'), (0.37844509441220425, 'CCCC(=O)NNC(=O)Nc1ccccc1')]
+generate_optimized_molecules:optimizer:Len(top_molecules):2
+generate_optimized_molecules:optimizer:Number_molecules:159
+generate_optimized_molecules:optimizer:Heapq contents:<module 'heapq' from 'C:\\Users\\Saptarshi\\Anaconda3\\lib\\heapq.py'>
+generate_optimized_molecules:optimizer:Output of best_from_chembl:generate_optimized_molecule function is ['CC(=O)NC1CCC2(C)C(CCC3(C)C2C(=O)C=C2C4C(C)C(C)CCC4(C)CCC23C)C1(C)C(=O)O', 'CCCC(=O)NNC(=O)Nc1ccccc1', 'CC(=O)NC(C)Cc1ccc(C#Cc2ccnc(N3CCCC(F)C3)n2)cc1']
+generate_optimized_molecules:optimizer:Exiting generate_optimized_molecule function
+
+
+generate_optimized_molecules:optimizer:The score for Cc1cccc(CCNC(=O)C2CCC(=O)N(Cc3ccc(Cl)cc3)C2)n1 is 0.33333333333333753
+generate_optimized_molecules:optimizer:Item(score,smiles)=(0.33333333333333753,Cc1cccc(CCNC(=O)C2CCC(=O)N(Cc3ccc(Cl)cc3)C2)n1)
+generate_optimized_molecules:optimizer:Top molecules:[(5.766940698941967e-97, 'CC(=O)NC1CCC2(C)C(CCC3(C)C2C(=O)C=C2C4C(C)C(C)CCC4(C)CCC23C)C1(C)C(=O)O'), (0.37844509441220425, 'CCCC(=O)NNC(=O)Nc1ccccc1'), (0.20217688657087782, 'CC(=O)NC(C)Cc1ccc(C#Cc2ccnc(N3CCCC(F)C3)n2)cc1')]
+generate_optimized_molecules:optimizer:Len(top_molecules):3
+generate_optimized_molecules:optimizer:Number_molecules:159
+generate_optimized_molecules:optimizer:Heapq contents:<module 'heapq' from 'C:\\Users\\Saptarshi\\Anaconda3\\lib\\heapq.py'>
+generate_optimized_molecules:optimizer:Output of best_from_chembl:generate_optimized_molecule function is ['CC(=O)NC1CCC2(C)C(CCC3(C)C2C(=O)C=C2C4C(C)C(C)CCC4(C)CCC23C)C1(C)C(=O)O', 'Cc1cccc(CCNC(=O)C2CCC(=O)N(Cc3ccc(Cl)cc3)C2)n1', 'CC(=O)NC(C)Cc1ccc(C#Cc2ccnc(N3CCCC(F)C3)n2)cc1', 'CCCC(=O)NNC(=O)Nc1ccccc1']
+generate_optimized_molecules:optimizer:Exiting generate_optimized_molecule function
+
+
+generate_optimized_molecules:optimizer:The score for CC1C=CN(N(C)C)C2=C1C(=O)c1cnccc1C2=O is 0.3334451542093008
+generate_optimized_molecules:optimizer:Item(score,smiles)=(0.3334451542093008,CC1C=CN(N(C)C)C2=C1C(=O)c1cnccc1C2=O)
+generate_optimized_molecules:optimizer:Top molecules:[(5.766940698941967e-97, 'CC(=O)NC1CCC2(C)C(CCC3(C)C2C(=O)C=C2C4C(C)C(C)CCC4(C)CCC23C)C1(C)C(=O)O'), (0.33333333333333753, 'Cc1cccc(CCNC(=O)C2CCC(=O)N(Cc3ccc(Cl)cc3)C2)n1'), (0.20217688657087782, 'CC(=O)NC(C)Cc1ccc(C#Cc2ccnc(N3CCCC(F)C3)n2)cc1'), (0.37844509441220425, 'CCCC(=O)NNC(=O)Nc1ccccc1')]
+generate_optimized_molecules:optimizer:Len(top_molecules):4
+generate_optimized_molecules:optimizer:Number_molecules:159
+generate_optimized_molecules:optimizer:Heapq contents:<module 'heapq' from 'C:\\Users\\Saptarshi\\Anaconda3\\lib\\heapq.py'>
+generate_optimized_molecules:optimizer:Output of best_from_chembl:generate_optimized_molecule function is ['CC(=O)NC1CCC2(C)C(CCC3(C)C2C(=O)C=C2C4C(C)C(C)CCC4(C)CCC23C)C1(C)C(=O)O', 'Cc1cccc(CCNC(=O)C2CCC(=O)N(Cc3ccc(Cl)cc3)C2)n1', 'CC(=O)NC(C)Cc1ccc(C#Cc2ccnc(N3CCCC(F)C3)n2)cc1', 'CCCC(=O)NNC(=O)Nc1ccccc1', 'CC1C=CN(N(C)C)C2=C1C(=O)c1cnccc1C2=O']
+generate_optimized_molecules:optimizer:Exiting generate_optimized_molecule function
+
+
+generate_optimized_molecules:optimizer:The score for COc1ccc2c(-c3ccncc3)c(-c3ccc(F)cc3)[nH]c2n1 is 0.10821748911945413
+generate_optimized_molecules:optimizer:Item(score,smiles)=(0.10821748911945413,COc1ccc2c(-c3ccncc3)c(-c3ccc(F)cc3)[nH]c2n1)
+generate_optimized_molecules:optimizer:Top molecules:[(5.766940698941967e-97, 'CC(=O)NC1CCC2(C)C(CCC3(C)C2C(=O)C=C2C4C(C)C(C)CCC4(C)CCC23C)C1(C)C(=O)O'), (0.33333333333333753, 'Cc1cccc(CCNC(=O)C2CCC(=O)N(Cc3ccc(Cl)cc3)C2)n1'), (0.20217688657087782, 'CC(=O)NC(C)Cc1ccc(C#Cc2ccnc(N3CCCC(F)C3)n2)cc1'), (0.37844509441220425, 'CCCC(=O)NNC(=O)Nc1ccccc1'), (0.3334451542093008, 'CC1C=CN(N(C)C)C2=C1C(=O)c1cnccc1C2=O')]
+generate_optimized_molecules:optimizer:Len(top_molecules):5
+generate_optimized_molecules:optimizer:Number_molecules:159
+generate_optimized_molecules:optimizer:Heapq contents:<module 'heapq' from 'C:\\Users\\Saptarshi\\Anaconda3\\lib\\heapq.py'>
+generate_optimized_molecules:optimizer:Output of best_from_chembl:generate_optimized_molecule function is ['CC(=O)NC1CCC2(C)C(CCC3(C)C2C(=O)C=C2C4C(C)C(C)CCC4(C)CCC23C)C1(C)C(=O)O', 'Cc1cccc(CCNC(=O)C2CCC(=O)N(Cc3ccc(Cl)cc3)C2)n1', 'COc1ccc2c(-c3ccncc3)c(-c3ccc(F)cc3)[nH]c2n1', 'CCCC(=O)NNC(=O)Nc1ccccc1', 'CC1C=CN(N(C)C)C2=C1C(=O)c1cnccc1C2=O', 'CC(=O)NC(C)Cc1ccc(C#Cc2ccnc(N3CCCC(F)C3)n2)cc1']
+generate_optimized_molecules:optimizer:Exiting generate_optimized_molecule function
+
+
+generate_optimized_molecules:optimizer:The score for Nc1nnc(CCNC(=O)c2cccc(C3CCCNC3)c2)s1 is 0.0037175961629357782
+generate_optimized_molecules:optimizer:Item(score,smiles)=(0.0037175961629357782,Nc1nnc(CCNC(=O)c2cccc(C3CCCNC3)c2)s1)
+generate_optimized_molecules:optimizer:Top molecules:[(5.766940698941967e-97, 'CC(=O)NC1CCC2(C)C(CCC3(C)C2C(=O)C=C2C4C(C)C(C)CCC4(C)CCC23C)C1(C)C(=O)O'), (0.33333333333333753, 'Cc1cccc(CCNC(=O)C2CCC(=O)N(Cc3ccc(Cl)cc3)C2)n1'), (0.10821748911945413, 'COc1ccc2c(-c3ccncc3)c(-c3ccc(F)cc3)[nH]c2n1'), (0.37844509441220425, 'CCCC(=O)NNC(=O)Nc1ccccc1'), (0.3334451542093008, 'CC1C=CN(N(C)C)C2=C1C(=O)c1cnccc1C2=O'), (0.20217688657087782, 'CC(=O)NC(C)Cc1ccc(C#Cc2ccnc(N3CCCC(F)C3)n2)cc1')]
+generate_optimized_molecules:optimizer:Len(top_molecules):6
+generate_optimized_molecules:optimizer:Number_molecules:159
+generate_optimized_molecules:optimizer:Heapq contents:<module 'heapq' from 'C:\\Users\\Saptarshi\\Anaconda3\\lib\\heapq.py'>
+generate_optimized_molecules:optimizer:Output of best_from_chembl:generate_optimized_molecule function is ['CC(=O)NC1CCC2(C)C(CCC3(C)C2C(=O)C=C2C4C(C)C(C)CCC4(C)CCC23C)C1(C)C(=O)O', 'Cc1cccc(CCNC(=O)C2CCC(=O)N(Cc3ccc(Cl)cc3)C2)n1', 'Nc1nnc(CCNC(=O)c2cccc(C3CCCNC3)c2)s1', 'CCCC(=O)NNC(=O)Nc1ccccc1', 'CC1C=CN(N(C)C)C2=C1C(=O)c1cnccc1C2=O', 'CC(=O)NC(C)Cc1ccc(C#Cc2ccnc(N3CCCC(F)C3)n2)cc1', 'COc1ccc2c(-c3ccncc3)c(-c3ccc(F)cc3)[nH]c2n1']
+generate_optimized_molecules:optimizer:Exiting generate_optimized_molecule function
+
+
+generate_optimized_molecules:optimizer:The score for CN(C)c1ccc(C(C(=O)NC2CCCC2)N(C(=O)c2ccco2)C2CC2)cc1 is 1.2422177240262236e-06
+generate_optimized_molecules:optimizer:Item(score,smiles)=(1.2422177240262236e-06,CN(C)c1ccc(C(C(=O)NC2CCCC2)N(C(=O)c2ccco2)C2CC2)cc1)
+generate_optimized_molecules:optimizer:Top molecules:[(5.766940698941967e-97, 'CC(=O)NC1CCC2(C)C(CCC3(C)C2C(=O)C=C2C4C(C)C(C)CCC4(C)CCC23C)C1(C)C(=O)O'), (0.33333333333333753, 'Cc1cccc(CCNC(=O)C2CCC(=O)N(Cc3ccc(Cl)cc3)C2)n1'), (0.0037175961629357782, 'Nc1nnc(CCNC(=O)c2cccc(C3CCCNC3)c2)s1'), (0.37844509441220425, 'CCCC(=O)NNC(=O)Nc1ccccc1'), (0.3334451542093008, 'CC1C=CN(N(C)C)C2=C1C(=O)c1cnccc1C2=O'), (0.20217688657087782, 'CC(=O)NC(C)Cc1ccc(C#Cc2ccnc(N3CCCC(F)C3)n2)cc1'), (0.10821748911945413, 'COc1ccc2c(-c3ccncc3)c(-c3ccc(F)cc3)[nH]c2n1')]
+generate_optimized_molecules:optimizer:Len(top_molecules):7
+generate_optimized_molecules:optimizer:Number_molecules:159
+generate_optimized_molecules:optimizer:Heapq contents:<module 'heapq' from 'C:\\Users\\Saptarshi\\Anaconda3\\lib\\heapq.py'>
+generate_optimized_molecules:optimizer:Output of best_from_chembl:generate_optimized_molecule function is ['CC(=O)NC1CCC2(C)C(CCC3(C)C2C(=O)C=C2C4C(C)C(C)CCC4(C)CCC23C)C1(C)C(=O)O', 'CN(C)c1ccc(C(C(=O)NC2CCCC2)N(C(=O)c2ccco2)C2CC2)cc1', 'Nc1nnc(CCNC(=O)c2cccc(C3CCCNC3)c2)s1', 'Cc1cccc(CCNC(=O)C2CCC(=O)N(Cc3ccc(Cl)cc3)C2)n1', 'CC1C=CN(N(C)C)C2=C1C(=O)c1cnccc1C2=O', 'CC(=O)NC(C)Cc1ccc(C#Cc2ccnc(N3CCCC(F)C3)n2)cc1', 'COc1ccc2c(-c3ccncc3)c(-c3ccc(F)cc3)[nH]c2n1', 'CCCC(=O)NNC(=O)Nc1ccccc1']
+generate_optimized_molecules:optimizer:Exiting generate_optimized_molecule function
+
+
+generate_optimized_molecules:optimizer:The score for CCOC(=O)C1CCN(C(=O)c2cccc(S(=O)(=O)NCc3ccccc3)c2)CC1 is 0.0451117610788709
+generate_optimized_molecules:optimizer:Item(score,smiles)=(0.0451117610788709,CCOC(=O)C1CCN(C(=O)c2cccc(S(=O)(=O)NCc3ccccc3)c2)CC1)
+generate_optimized_molecules:optimizer:Top molecules:[(5.766940698941967e-97, 'CC(=O)NC1CCC2(C)C(CCC3(C)C2C(=O)C=C2C4C(C)C(C)CCC4(C)CCC23C)C1(C)C(=O)O'), (1.2422177240262236e-06, 'CN(C)c1ccc(C(C(=O)NC2CCCC2)N(C(=O)c2ccco2)C2CC2)cc1'), (0.0037175961629357782, 'Nc1nnc(CCNC(=O)c2cccc(C3CCCNC3)c2)s1'), (0.33333333333333753, 'Cc1cccc(CCNC(=O)C2CCC(=O)N(Cc3ccc(Cl)cc3)C2)n1'), (0.3334451542093008, 'CC1C=CN(N(C)C)C2=C1C(=O)c1cnccc1C2=O'), (0.20217688657087782, 'CC(=O)NC(C)Cc1ccc(C#Cc2ccnc(N3CCCC(F)C3)n2)cc1'), (0.10821748911945413, 'COc1ccc2c(-c3ccncc3)c(-c3ccc(F)cc3)[nH]c2n1'), (0.37844509441220425, 'CCCC(=O)NNC(=O)Nc1ccccc1')]
+generate_optimized_molecules:optimizer:Len(top_molecules):8
+generate_optimized_molecules:optimizer:Number_molecules:159
+generate_optimized_molecules:optimizer:Heapq contents:<module 'heapq' from 'C:\\Users\\Saptarshi\\Anaconda3\\lib\\heapq.py'>
+generate_optimized_molecules:optimizer:Output of best_from_chembl:generate_optimized_molecule function is ['CC(=O)NC1CCC2(C)C(CCC3(C)C2C(=O)C=C2C4C(C)C(C)CCC4(C)CCC23C)C1(C)C(=O)O', 'CN(C)c1ccc(C(C(=O)NC2CCCC2)N(C(=O)c2ccco2)C2CC2)cc1', 'Nc1nnc(CCNC(=O)c2cccc(C3CCCNC3)c2)s1', 'CCOC(=O)C1CCN(C(=O)c2cccc(S(=O)(=O)NCc3ccccc3)c2)CC1', 'CC1C=CN(N(C)C)C2=C1C(=O)c1cnccc1C2=O', 'CC(=O)NC(C)Cc1ccc(C#Cc2ccnc(N3CCCC(F)C3)n2)cc1', 'COc1ccc2c(-c3ccncc3)c(-c3ccc(F)cc3)[nH]c2n1', 'CCCC(=O)NNC(=O)Nc1ccccc1', 'Cc1cccc(CCNC(=O)C2CCC(=O)N(Cc3ccc(Cl)cc3)C2)n1']
+generate_optimized_molecules:optimizer:Exiting generate_optimized_molecule function
+
+
+generate_optimized_molecules:optimizer:The score for CN1CCC2(NC(=O)NC2=O)c2ccccc21 is 0.21682253111201363
+generate_optimized_molecules:optimizer:Item(score,smiles)=(0.21682253111201363,CN1CCC2(NC(=O)NC2=O)c2ccccc21)
+generate_optimized_molecules:optimizer:Top molecules:[(5.766940698941967e-97, 'CC(=O)NC1CCC2(C)C(CCC3(C)C2C(=O)C=C2C4C(C)C(C)CCC4(C)CCC23C)C1(C)C(=O)O'), (1.2422177240262236e-06, 'CN(C)c1ccc(C(C(=O)NC2CCCC2)N(C(=O)c2ccco2)C2CC2)cc1'), (0.0037175961629357782, 'Nc1nnc(CCNC(=O)c2cccc(C3CCCNC3)c2)s1'), (0.0451117610788709, 'CCOC(=O)C1CCN(C(=O)c2cccc(S(=O)(=O)NCc3ccccc3)c2)CC1'), (0.3334451542093008, 'CC1C=CN(N(C)C)C2=C1C(=O)c1cnccc1C2=O'), (0.20217688657087782, 'CC(=O)NC(C)Cc1ccc(C#Cc2ccnc(N3CCCC(F)C3)n2)cc1'), (0.10821748911945413, 'COc1ccc2c(-c3ccncc3)c(-c3ccc(F)cc3)[nH]c2n1'), (0.37844509441220425, 'CCCC(=O)NNC(=O)Nc1ccccc1'), (0.33333333333333753, 'Cc1cccc(CCNC(=O)C2CCC(=O)N(Cc3ccc(Cl)cc3)C2)n1')]
+generate_optimized_molecules:optimizer:Len(top_molecules):9
+generate_optimized_molecules:optimizer:Number_molecules:159
+generate_optimized_molecules:optimizer:Heapq contents:<module 'heapq' from 'C:\\Users\\Saptarshi\\Anaconda3\\lib\\heapq.py'>
+generate_optimized_molecules:optimizer:Output of best_from_chembl:generate_optimized_molecule function is ['CC(=O)NC1CCC2(C)C(CCC3(C)C2C(=O)C=C2C4C(C)C(C)CCC4(C)CCC23C)C1(C)C(=O)O', 'CN(C)c1ccc(C(C(=O)NC2CCCC2)N(C(=O)c2ccco2)C2CC2)cc1', 'Nc1nnc(CCNC(=O)c2cccc(C3CCCNC3)c2)s1', 'CCOC(=O)C1CCN(C(=O)c2cccc(S(=O)(=O)NCc3ccccc3)c2)CC1', 'CN1CCC2(NC(=O)NC2=O)c2ccccc21', 'CC(=O)NC(C)Cc1ccc(C#Cc2ccnc(N3CCCC(F)C3)n2)cc1', 'COc1ccc2c(-c3ccncc3)c(-c3ccc(F)cc3)[nH]c2n1', 'CCCC(=O)NNC(=O)Nc1ccccc1', 'Cc1cccc(CCNC(=O)C2CCC(=O)N(Cc3ccc(Cl)cc3)C2)n1', 'CC1C=CN(N(C)C)C2=C1C(=O)c1cnccc1C2=O']
+generate_optimized_molecules:optimizer:Exiting generate_optimized_molecule function
+
+
+__iter__:chembl_file_reader:----EXITING chembl_file_reader----
+
+
+assess_model:goal_directed_benchmark:Molecules:['CC(=O)NC1CCC2(C)C(CCC3(C)C2C(=O)C=C2C4C(C)C(C)CCC4(C)CCC23C)C1(C)C(=O)O', 'CN(C)c1ccc(C(C(=O)NC2CCCC2)N(C(=O)c2ccco2)C2CC2)cc1', 'Nc1nnc(CCNC(=O)c2cccc(C3CCCNC3)c2)s1', 'CCOC(=O)C1CCN(C(=O)c2cccc(S(=O)(=O)NCc3ccccc3)c2)CC1', 'CN1CCC2(NC(=O)NC2=O)c2ccccc21', 'CC(=O)NC(C)Cc1ccc(C#Cc2ccnc(N3CCCC(F)C3)n2)cc1', 'COc1ccc2c(-c3ccncc3)c(-c3ccc(F)cc3)[nH]c2n1', 'CCCC(=O)NNC(=O)Nc1ccccc1', 'Cc1cccc(CCNC(=O)C2CCC(=O)N(Cc3ccc(Cl)cc3)C2)n1', 'CC1C=CN(N(C)C)C2=C1C(=O)c1cnccc1C2=O']
+assess_model:goal_directed_benchmark:Canonicalized Molecules:['CC(=O)NC1CCC2(C)C(CCC3(C)C2C(=O)C=C2C4C(C)C(C)CCC4(C)CCC23C)C1(C)C(=O)O', 'CN(C)c1ccc(C(C(=O)NC2CCCC2)N(C(=O)c2ccco2)C2CC2)cc1', 'Nc1nnc(CCNC(=O)c2cccc(C3CCCNC3)c2)s1', 'CCOC(=O)C1CCN(C(=O)c2cccc(S(=O)(=O)NCc3ccccc3)c2)CC1', 'CN1CCC2(NC(=O)NC2=O)c2ccccc21', 'CC(=O)NC(C)Cc1ccc(C#Cc2ccnc(N3CCCC(F)C3)n2)cc1', 'COc1ccc2c(-c3ccncc3)c(-c3ccc(F)cc3)[nH]c2n1', 'CCCC(=O)NNC(=O)Nc1ccccc1', 'Cc1cccc(CCNC(=O)C2CCC(=O)N(Cc3ccc(Cl)cc3)C2)n1', 'CC1C=CN(N(C)C)C2=C1C(=O)c1cnccc1C2=O']
+assess_model:goal_directed_benchmark:Unique Molecules:['CC(=O)NC1CCC2(C)C(CCC3(C)C2C(=O)C=C2C4C(C)C(C)CCC4(C)CCC23C)C1(C)C(=O)O', 'CN(C)c1ccc(C(C(=O)NC2CCCC2)N(C(=O)c2ccco2)C2CC2)cc1', 'Nc1nnc(CCNC(=O)c2cccc(C3CCCNC3)c2)s1', 'CCOC(=O)C1CCN(C(=O)c2cccc(S(=O)(=O)NCc3ccccc3)c2)CC1', 'CN1CCC2(NC(=O)NC2=O)c2ccccc21', 'CC(=O)NC(C)Cc1ccc(C#Cc2ccnc(N3CCCC(F)C3)n2)cc1', 'COc1ccc2c(-c3ccncc3)c(-c3ccc(F)cc3)[nH]c2n1', 'CCCC(=O)NNC(=O)Nc1ccccc1', 'Cc1cccc(CCNC(=O)C2CCC(=O)N(Cc3ccc(Cl)cc3)C2)n1', 'CC1C=CN(N(C)C)C2=C1C(=O)c1cnccc1C2=O']
+assess_model:goal_directed_benchmark:Scores:[5.766940698941967e-97, 1.2422177240262236e-06, 0.0037175961629357782, 0.0451117610788709, 0.21682253111201363, 0.20217688657087782, 0.10821748911945413, 0.37844509441220425, 0.33333333333333753, 0.3334451542093008]
+assess_model:goal_directed_benchmark:An incorrect number of distinct molecules was generated: 10 instead of 159. Padding scores with 149 zeros...
+compute_global_score:goal_directed_score_contributions:
+
+Inside goal_directed_score_contribution.compute_global_score
+compute_global_score:goal_directed_score_contributions:(Top_count,weight):159,1.0
+compute_global_score:goal_directed_score_contributions:Score:0.010196673510796972
+compute_global_score:goal_directed_score_contributions:Global score after loop:0.010196673510796972
+compute_global_score:goal_directed_score_contributions:Global score after division:0.010196673510796972
+compute_global_score:goal_directed_score_contributions:top_x_dict:
+compute_global_score:goal_directed_score_contributions:Exiting goal_directed_score_contribution.compute_global_score
+
+
+assess_model:goal_directed_benchmark:Global score:0.010196673510796972,{'top_159': 0.010196673510796972}
+assess_model:goal_directed_benchmark:Scored Molecules:<zip object at 0x000001C3D1EF9B88>
+assess_model:goal_directed_benchmark:Sorted scored molecules:[('CCCC(=O)NNC(=O)Nc1ccccc1', 0.37844509441220425), ('CC1C=CN(N(C)C)C2=C1C(=O)c1cnccc1C2=O', 0.3334451542093008), ('Cc1cccc(CCNC(=O)C2CCC(=O)N(Cc3ccc(Cl)cc3)C2)n1', 0.33333333333333753), ('CN1CCC2(NC(=O)NC2=O)c2ccccc21', 0.21682253111201363), ('CC(=O)NC(C)Cc1ccc(C#Cc2ccnc(N3CCCC(F)C3)n2)cc1', 0.20217688657087782), ('COc1ccc2c(-c3ccncc3)c(-c3ccc(F)cc3)[nH]c2n1', 0.10821748911945413), ('CCOC(=O)C1CCN(C(=O)c2cccc(S(=O)(=O)NCc3ccccc3)c2)CC1', 0.0451117610788709), ('Nc1nnc(CCNC(=O)c2cccc(C3CCCNC3)c2)s1', 0.0037175961629357782), ('CN(C)c1ccc(C(C(=O)NC2CCCC2)N(C(=O)c2ccco2)C2CC2)cc1', 1.2422177240262236e-06), ('CC(=O)NC1CCC2(C)C(CCC3(C)C2C(=O)C=C2C4C(C)C(C)CCC4(C)CCC23C)C1(C)C(=O)O', 5.766940698941967e-97)]
+assess_model:goal_directed_benchmark:--Exiting assess model function---
+
+
+_evaluate_goal_directed_benchmarks:assess_goal_directed_generation:Result of benchmark.assess_model is <guacamol.goal_directed_benchmark.GoalDirectedBenchmarkResult object at 0x000001C3D1EFF2E8>
+_evaluate_goal_directed_benchmarks:assess_goal_directed_generation:Results for the benchmark "C11H24":
+_evaluate_goal_directed_benchmarks:assess_goal_directed_generation:  Score: {result.score:.6f}
+_evaluate_goal_directed_benchmarks:assess_goal_directed_generation:  Execution time: {str(datetime.timedelta(seconds=int(result.execution_time)))}
+_evaluate_goal_directed_benchmarks:assess_goal_directed_generation:  Metadata: {result.metadata}
+_evaluate_goal_directed_benchmarks:assess_goal_directed_generation:Finished execution of the benchmarks
+
+
+assess_goal_directed_generation:assess_goal_directed_generation:Result of _evaluate_goal_directed_benchmarks is [<guacamol.goal_directed_benchmark.GoalDirectedBenchmarkResult object at 0x000001C3D1EFF2E8>]
+assess_goal_directed_generation:assess_goal_directed_generation:Save results to file {json_output_file}
+assess_goal_directed_generation:assess_goal_directed_generation:Exiting guacamol.assess_goal_directed_generation
+
+
+<module>:goal_directed_generation:Exiting best_from_chembl:goal_directed_generation
+
+

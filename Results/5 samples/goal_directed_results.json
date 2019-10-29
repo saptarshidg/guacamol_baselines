@@ -1,0 +1,89 @@
+{
+    "guacamol_version": "0.5.0",
+    "benchmark_suite_version": "v1",
+    "timestamp": "20190218-1528",
+    "results": [
+        {
+            "benchmark_name": "C11H24",
+            "score": 0.010196673510796972,
+            "optimized_molecules": [
+                [
+                    "CCCC(=O)NNC(=O)Nc1ccccc1",
+                    0.37844509441220425
+                ],
+                [
+                    "CC1C=CN(N(C)C)C2=C1C(=O)c1cnccc1C2=O",
+                    0.3334451542093008
+                ],
+                [
+                    "Cc1cccc(CCNC(=O)C2CCC(=O)N(Cc3ccc(Cl)cc3)C2)n1",
+                    0.33333333333333753
+                ],
+                [
+                    "CN1CCC2(NC(=O)NC2=O)c2ccccc21",
+                    0.21682253111201363
+                ],
+                [
+                    "CC(=O)NC(C)Cc1ccc(C#Cc2ccnc(N3CCCC(F)C3)n2)cc1",
+                    0.20217688657087782
+                ],
+                [
+                    "COc1ccc2c(-c3ccncc3)c(-c3ccc(F)cc3)[nH]c2n1",
+                    0.10821748911945413
+                ],
+                [
+                    "CCOC(=O)C1CCN(C(=O)c2cccc(S(=O)(=O)NCc3ccccc3)c2)CC1",
+                    0.0451117610788709
+                ],
+                [
+                    "Nc1nnc(CCNC(=O)c2cccc(C3CCCNC3)c2)s1",
+                    0.0037175961629357782
+                ],
+                [
+                    "CN(C)c1ccc(C(C(=O)NC2CCCC2)N(C(=O)c2ccco2)C2CC2)cc1",
+                    1.2422177240262236e-06
+                ],
+                [
+                    "CC(=O)NC1CCC2(C)C(CCC3(C)C2C(=O)C=C2C4C(C)C(C)CCC4(C)CCC23C)C1(C)C(=O)O",
+                    5.766940698941967e-97
+                ]
+            ],
+            "execution_time": 0.05119967460632324,
+            "number_scoring_function_calls": 10,
+            "metadata": {
+                "top_159": 0.010196673510796972,
+                "internal_similarity_max": 0.2,
+                "internal_similarity_mean": 0.10237898555382233,
+                "internal_similarity_histogram_density": [
+                    [
+                        4.4,
+                        5.4,
+                        0.19999999999999993,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "internal_similarity_histogram_bins": [
+                    [
+                        0.0,
+                        0.1,
+                        0.2,
+                        0.30000000000000004,
+                        0.4,
+                        0.5,
+                        0.6000000000000001,
+                        0.7000000000000001,
+                        0.8,
+                        0.9,
+                        1.0
+                    ]
+                ]
+            }
+        }
+    ]
+}
